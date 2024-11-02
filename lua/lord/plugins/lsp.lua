@@ -21,7 +21,7 @@ return {
             {},
             vim.lsp.protocol.make_client_capabilities(),
             cmp_lsp.default_capabilities())
-
+        vim.keymap.set("n", "<leader>r", vim.lsp.buf.rename)
         require("fidget").setup({})
         require("mason").setup()
         require("mason-lspconfig").setup({
