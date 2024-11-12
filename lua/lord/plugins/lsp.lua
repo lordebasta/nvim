@@ -27,8 +27,8 @@ return {
         require("mason-lspconfig").setup({
             ensure_installed = {
                 "lua_ls",
-                "rust_analyzer",
-                "gopls",
+--                "rust_analyzer",
+--                "gopls",
                 "pylsp"
             },
             handlers = {
