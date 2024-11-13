@@ -12,12 +12,13 @@ vim.keymap.set("n", "<C-u>", "<C-u>zz")
 -- vim.keymap.set("n", "N", "Nzzzv")
 vim.keymap.set("n", "<leader>zig", "<cmd>LspRestart<cr>")
 
--- greatest remap ever, when i copy paste on a highlighted word, i keep pasting the first word i copied
-vim.keymap.set("x", "<leader>p", [["_dP]])
+-- greatest remap ever, when i copy paste on a highlighted word, I keep pasting the first word I copied
+-- vim.keymap.set("x", "<leader>p", [["_dP]])
 
 -- next greatest remap ever : asbjornHaland
 vim.keymap.set({"n", "v"}, "<leader>y", [["+y]])
 vim.keymap.set("n", "<leader>Y", [["+Y]])
+vim.keymap.set("n", "<leader>P", [["+P]])
 
 vim.keymap.set({"n", "v"}, "<leader>d", "\"_d")
 
